@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_home"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Arsenal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_away"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Barcelona"
+        android:textAlignment="center" />
+
+</LinearLayout>
